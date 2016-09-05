@@ -1,0 +1,7 @@
+# Golang
+build
+vendor
+
+# Jetbrains
+*.iml
+.idea

@@ -1,0 +1,6 @@
+package: github.com/Noah-Huppert/auth-service
+import:
+- package: github.com/gin-gonic/gin
+- package: github.com/dgrijalva/jwt-go
+- package: github.com/jinzhu/gorm
+- package: gopkg.in/ini.v1
