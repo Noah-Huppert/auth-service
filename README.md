@@ -18,6 +18,8 @@ Auth service provides the following features:
 - [Vault Secret Engine API](https://www.vaultproject.io/docs/secrets/index.html)
 	- Provision over 12 different types of secrets for users which 
 	  authenticate with auth service
+- LDAP server
+	- Provide federated access to users
 - Roll based access control
 - User management dashboard
 - [Vault Audit log](https://www.vaultproject.io/docs/audit/index.html) user interface
