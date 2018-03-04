@@ -5,12 +5,19 @@ Simple authentication service which provides proof of identity to other services
 - [Overview](#overview)
 
 # Overview
-Auth service is a common authentication service which uses 
-[Vault](https://www.vaultproject.io) as a auth backend.  
+Auth service is a common authentication service which uses the 
+[Vault Project](https://www.vaultproject.io) as a authentication backend.  
 
-It provides the following features:  
+Auth service provides the following features:  
 
-- User / Password authentication
-- Multi factor authentication
-	- One time password
+- Login user interface
+	- [User & Password](https://www.vaultproject.io/docs/auth/userpass.html)
+	- [(WIP) Time Based One Time Passwords](https://www.vaultproject.io/docs/secrets/totp/index.html)
+	- [(WIP) LDAP](https://www.vaultproject.io/docs/auth/ldap.html)
+	- [(WIP) GitHub](https://www.vaultproject.io/docs/auth/github.html)
+- [Vault Secret Engine API](https://www.vaultproject.io/docs/secrets/index.html)
+	- Provision over 12 different types of secrets for users which 
+	  authenticate with auth service
 - Roll based access control
+- User management dashboard
+- [Vault Audit log](https://www.vaultproject.io/docs/audit/index.html) user interface
